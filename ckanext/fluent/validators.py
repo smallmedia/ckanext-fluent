@@ -7,7 +7,7 @@ from pylons import config
 from ckanext.fluent.helpers import fluent_form_languages
 from ckanext.scheming.helpers import scheming_language_text
 
-ISO_639_LANGUAGE = u'^[a-z][a-z][a-z]?[a-z]?$'
+ISO_639_LANGUAGE = u'^[a-z][a-z][a-z]?[a-z]?[_]?[A-Z]?[A-Z]?$'
 
 LANG_SUFFIX = '_translated'
 
